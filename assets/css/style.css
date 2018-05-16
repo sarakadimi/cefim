@@ -26,7 +26,7 @@ body {
 /**************************************** header *****************************/
 header{
     background-image: url("../img/code.jpg") ;
-    height: 70vh;
+    height: 75vh;
 }
 
 header h1, header h1+p{
