@@ -53,6 +53,7 @@ header nav ul {
     font-size: x-large;
     list-style-type: none;
     padding: 0px;
+    margin: 0px;
     overflow: hidden;
     background: black;
     height: 70px;
