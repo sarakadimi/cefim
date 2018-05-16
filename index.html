@@ -1,2 +1,270 @@
-<h1>Bonjour tous le mond !</h1>
-<p> Ici je vous me présent, qui suis-je?</p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header">
+    <div id="menu-burger"  onclick="menu()">
+        <div class="trait"></div>
+        <div class="trait"></div>
+        <div class="trait"></div>
+    </div>
+    <nav id="menu" >
+        <ul>
+            <li><a href="#parcour" title="parcour">Mon parcour</a> </li>
+            <li><a href="#competence" title="competence">Mes compétences</a></li>
+            <li><a href="#experience" title="experience">Mes expériences</a></li>
+            <li><a href="#centreInteret" title="centreInteret"> Centre d'intérêt</a></li>
+            <li><a href="#sitePrefer" title="site"> Mes sites préférés</a></li>
+        </ul>
+    </nav>
+
+    <div class="nom">
+            <h1>Sara KADIMI</h1>
+            <p>OBJECTIF DEVELOPPEUSE WEB</p>
+    </div>
+    <p class="presentation">
+        De formation Mathématique, je suis passionnée par des nouvelles technologies du web. Récemment, j'ai obtenu un diplôme PASS NUMERIC.<br/>
+        Mon objectif est d'approfondir mes compétences dans le domaine du développement web et je souhaiterai intégrer la formation développeur web d'école CEFIM
+        d'une part par la qualité de l'enseignement et d'autre part par sa notoriété auprès des entreprises.<br/>
+        Ce site a été construit dans le cadre d'un challenge CEFIM et l’objectif étant d'appliquer mes connaissances acquises durant l'année 2018.
+    </p>
+    <a href="#header" class="fleche"><i class="fa fa-arrow-circle-up"></i></a>
+</header>
+<main>
+    <div id="photo">
+        <img src="assets/img/sara.jpg" alt="photo">
+    </div>
+
+    <div id="parcour" class="timeline">
+        <div class="contenu left">
+            <div class="content">
+                <h2 class="accordion" onclick="accordion('#openclasse')">
+                   <span id="an">2018</span>
+                    <span>OPEN CLASSROOMS</span>
+                </h2>
+                <div id="openclasse" class="panel">
+                    <p>
+                        <strong>Suivre des cours sur le site OpenClassRooms </strong><br/>
+                        Certificatification : <br/>
+                        - comprendre le Web et apprendre à créer un site web avec HTML5 et CSS3<br/>
+                        - langage javaScript ( en cours )
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="contenu right">
+            <div class="content">
+                <h2 class="accordion" onclick="accordion('#pass')">
+                    <span id="an">2018</span>
+                    <span>LAB NUMERIC</span>
+                </h2>
+                <div id="pass" class="panel">
+                    <p>
+                        <strong>Formation de 6 mois autour du numérique et informatique</strong><br/>
+                        Obtention du diplôme Passe Numérique du CNAM</br>
+                    <ul>
+                        <li>développement de compétences dans le domaine de la modélisation 3D, de la programmation, du raisonnement algorithmique</li>
+                        <li>référencement sur le web, au community management, à l’utilisation d’un CMS</li>
+                        <li>stage en entreprise</li>
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="contenu left">
+            <div class="content">
+                <h2 class="accordion" onclick="accordion('#uni')">
+                    <span id="an">2014-2015</span>
+                    <span>UNIVERSITÉ FRANÇOIS RABELAIS</span>
+                </h2>
+                <div id="uni" class="panel">
+                    <p><strong>Diplôme DUEF C1 : </strong><br/>
+                        CUEFEE (Centre Universitaire d'Enseignement Français aux Etudiants Etrangés)<br/>
+                        Université François Rabelais, TOURS </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="contenu right">
+            <div class="content">
+                <h2 class="accordion" onclick="accordion('#math')">
+                    <span id="an">2011-2013</span>
+                    <span>UNIVERSITÉ DE KABOUL</span>
+                </h2>
+                <div id="math" class="panel">
+                    <p><strong>Formation supérieur : </strong><br/> Domaine science, Licence mathématiques, niveau L2</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="contenu left">
+            <div class="content">
+                <h2 class="accordion" onclick="accordion('#prepa')">
+                    <span id="an">2009-2010</span>
+                    <span>OLAMPIADE</span>
+                </h2>
+                <div id="prepa" class="panel">
+                    <p>
+                        <strong>Prépa au concours universitaire.</strong><br/>
+                        Kaboul, Afghanistan
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="contenu right">
+            <div class="content">
+                <h2 class="accordion" onclick="accordion('#bac')">
+                    <span id="an">2008</span>
+                    <span>LYCÉE SOPHIE</span>
+                </h2>
+                <div id="bac" class="panel">
+                    <p><strong>Diplôme : BAC scientifique</strong></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="cv-contenu" id="competence">
+    <h1 class="text">COMPETENCES</h1>
+        <section  class="corp">
+            <article class="impaire">
+                <h2>langage informatique</h2>
+                <p>HTML5, CSS3, JavaScript, PHP, C++, SQL, JAVA</p>
+            </article>
+            <article class="paire">
+                <h2>Outil</h2>
+                <p>Eclipse, Notepad++, l'utlisation de CMS Wordpress</p>
+            </article>
+            <article class="impaire">
+                <h2>Base de données</h2>
+                <p>PostgreSQL, MySQL, PgAdmin, phpMyAdmin</p>
+            </article>
+            <article class="paire">
+                <h2>Logiciels</h2>
+                <p> Libre office, Pack Office, Les logiciels PAO</p>
+            </article>
+            <article class="impaire">
+                <h2>Technologies</h2>
+                <p> Découpe Vinyle, Découpe laser, modélisation 3D et impression 3D</p>
+                </article>
+            <article class="paire">
+                <h2>Langue</h2>
+                <p>Français, Englais, Persan, Urdo</p>
+            </article>
+        </section>
+    </div>
+    <div id="experience">
+        <h1>EXPERIENCES</h1>
+        <section>
+            <article>
+                <div class="exp-titre">
+                    <h2>Stage Umanis</h2>
+                </div>
+                <div class="exp-sous-titre">
+                    <span>Décembre à Mars 2017-2018</span>
+                </div>
+                <div class="exp-contenu">
+                    <p>
+                        Développement d'évolution en Java et modification des règles de gestion :<br/>
+                        - modification de la structure des tables sous PostgreSQL<br/>
+                        - modification des classes services<br/>
+                        - modification des JSP avec les langages HTML5 et CSS3<br/>
+                        - Analyste test et validation<br/>
+
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <div class="exp-titre">
+                    <h2>Lab Numeric</h2>
+                </div>
+                <div class="exp-sous-titre">
+                    <span>Octobre à Mars 2018</span>
+                </div>
+                <div class="exp-contenu">
+                    <p>
+                        Dans le cadre de la formation Lab Numéric, nous avons construit
+                        un site vitrine pour promouvoir un robot assemblé pendant la formation.<br/>
+                        Le site a été créer  avec les langages HTML5, CSS3,
+                        PHP et MY SQL. <br/>
+                    </p>
+                </div>
+
+
+            </article>
+            <article>
+                <div class="exp-titre">
+                    <h2>Atelier couture</h2>
+                </div>
+                <div class="exp-sous-titre">
+                    <span>Février à juin 2009</span>
+                </div>
+                <div class="exp-contenu">
+                    <p>
+                        Découper des tissus à partir d'un patron et
+                        styliser des vêtements.<br/>
+                        Designer des robes traditionnelles afghan.<br/>
+                        Décorer des robes avec des strass et des petits miroirs et coudre à la main.
+                    </p>
+                </div>
+
+            </article>
+        </section>
+    </div>
+
+    <div class="cv-contenu" id="centreInteret">
+        <h1 class="text">Centre d'intérêt</h1>
+        <section  class="corp">
+            <article class="impaire">
+                <h2><i class="fa fa-camera fa-5" aria-hidden="true"></i></h2>
+                <p><strong>Photographie</strong></p>
+            </article>
+            <article class="photo-img1" > </article>
+            <article class="photo-img2"></article>
+            <article class="paire">
+                <h2><i class="fa fa-cutlery" aria-hidden="true"></i></h2>
+                <p><strong> Cuisine</strong></p>
+            </article>
+            <article class="eat-img1"></article>
+            <article class="eat-img2"></article>
+        </section>
+    </div>
+
+</main>
+<footer>
+    <div class="footer">
+        <div id="sitePrefer" class="prefer">
+            <h1>Mes sites préférés</h1>
+            <p><a href="https://www.cefim.eu/" title="école web et reseau" target="_blank">Cefim</a> </p>
+            <p><a href=" http://labnum37.solutionweb.fr/category/les-stagiaires/sara/" title="labNumeric" target="_blank">labnum37</a> </p>
+            <p><a href="http://gssrobotaid.000webhostapp.com/"  title="robot" target="_blank">gssrobotaid</a></p>
+            <p><a href="https://openclassrooms.com" title="cours en ligne" target="_blank">openclassrooms</a></p>
+            <p><a href="https://www.w3schools.com/" title="cours en ligne" target="_blank">w3schools</a> </p>
+        </div>
+        <div>
+            <a href="https://plus.google.com/u/0/110457598520390943473" class="fa fa-google" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/sara-kadimi-1514bb158/" class="fa fa-linkedin" target="_blank"></a>
+            <div class="copyright">Sara KADIMI &copy; 2018 </div>
+        </div>
+    </div>
+
+</footer>
+<!--chargements des scripts javaScript : jquery (utilisation de la fonction toggleClass pour ajouter ou supprimer une class css)
+et script.js site qui contient deux fonctions pour le menu et l'accordion-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                  crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
