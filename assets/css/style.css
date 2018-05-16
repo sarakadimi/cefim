@@ -178,7 +178,7 @@ main #photo img{
         width: 50%;
     }
     main #photo{
-        margin-top: 0px;
+        margin-top: 10px;
     }
     main{
         border-top: none;
@@ -383,6 +383,9 @@ main #photo img{
 
 .photo-img1{
     background-image: url("../img/photo01.jpg");
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
     transition-duration: 1s;
 }
 
@@ -392,6 +395,9 @@ main #photo img{
 
 .photo-img2{
      background-image: url("../img/photo03.jpg");
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
      transition-duration: 1.5s;
  }
 
@@ -402,6 +408,9 @@ main #photo img{
 
 .eat-img1{
     background-image: url("../img/eat01.jpg");
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
     transition-duration: 1.5s;
 }
 
@@ -411,6 +420,9 @@ main #photo img{
 
 .eat-img2{
     background-image: url("../img/eat03.jpg");
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
     transition-duration: 1.5s;
 }
 
@@ -450,6 +462,9 @@ main #photo img{
 .prefer p{
     font-size: 1.3em;
     transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
     font-weight: bold;
 }
 
